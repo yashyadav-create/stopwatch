@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+  
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: hsl(0, 0%, 90%);
+
+}
+
+
+
+#myH1{
+    font-size: 3.5em;
+}
+#display{
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 4.5rem;
+}
+.controls{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+
+}
+button{
+    padding: 30px;
+    margin: 15px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor:pointer;
+}
+#start{
+    background-color: hsl(120, 80%, 56%);
+    color: white;
+}
+#stop{
+    background-color: red;
+    color: white;
+}
+
+#reset{
+    background-color: hsl(240, 100%, 65%);
+    color: white;
+}
+
